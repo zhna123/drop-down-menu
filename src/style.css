@@ -1,0 +1,52 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav {
+    text-align: center;
+    padding: 50px;
+}
+
+nav > ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(224, 221, 221);
+}
+
+nav > ul > li {
+    float: left;
+    width: 150px;
+    height: 65px;
+    line-height: 65px;
+    color: rgb(107, 106, 106);
+    cursor: pointer;
+    font-size: 14px;
+    /* position: relative; */
+
+}
+
+ul.menu {
+    /* position: absolute; */
+    /* top: 100%;
+    left: 0%; */
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+ul.menu li {
+    background: rgb(107, 106, 106);
+    color: rgba(255,255,255,0.7);
+
+    display: none;
+}
+
+ul.menu li:hover {
+    background: rgb(68, 68, 68);
+}
+
+ul.menu li.visible {
+    display: block;
+} 
